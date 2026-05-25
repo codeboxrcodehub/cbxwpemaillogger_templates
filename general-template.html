@@ -57,15 +57,13 @@
         }
         .logo-image {
             width: 50px;
-            height: 50px;
-            background-color: rgba(255, 255, 255, 0.2);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            color: #ffffff;
+            height: 50px;            
+            border-radius: 0;
+            font-size: 20px;
+            color: #000000;
             font-weight: 700;
+            text-align: center;
+            line-height: 50px;
         }
         .content {
             padding: 50px 40px;
@@ -374,10 +372,15 @@
                             <tr>
                                 <td style="width: 70%; vertical-align: middle;">
                                     <div class="logo-text">YourBrand</div>
-                                </td>
-                                <td style="width: 30%; text-align: right; vertical-align: middle;">
-                                    <!-- Replace with: <img src="https://yoursite.com/logo.png" alt="YourBrand Logo" width="50" height="50" style="border-radius: 10px;"> -->
-                                    <div class="logo-image">YB</div>
+                                </td>                                
+                                <td width="30%" align="right" valign="middle">
+                                    <table role="presentation" cellpadding="0" cellspacing="0" align="right">
+                                        <tr>
+                                            <td class="logo-image" align="center" valign="middle">
+                                                YB
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </td>
                             </tr>
                         </table>
