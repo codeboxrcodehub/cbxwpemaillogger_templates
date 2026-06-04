@@ -21,16 +21,18 @@
             border-spacing: 0;
             border-collapse: collapse;
         }
+
+        body, table, td {
+            mso-line-height-rule: exactly;
+        }
+
         img {
             border: 0;
             display: block;
         }
         .wrapper {
             width: 100%;
-            background-color: #f5f5f5;
-            padding: 40px 0;
-            margin-top: 50px;
-            margin-bottom: 50px;
+            background-color: #f5f5f5;                   
         }
         .container {
             max-width: 600px;
@@ -42,6 +44,7 @@
             border: 1px solid #e5e7eb;
         }
         .header {
+            background: #667eea;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             padding: 30px 40px;
         }
@@ -91,6 +94,7 @@
         .button {
             display: inline-block;
             padding: 14px 32px;
+            background: #667eea;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: #ffffff !important;
             text-decoration: none;
@@ -343,7 +347,7 @@
             }
             .button {
                 display: block;
-                margin: 10px 0;
+                margin: 10px  auto;
             }
             .button-secondary {
                 margin-left: 0;
@@ -362,6 +366,9 @@
 </div>
 
 <table role="presentation" class="wrapper" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td height="50" style="line-height:50px; font-size:0;">&nbsp;</td>
+    </tr>
     <tr>
         <td align="center">
             <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0">
@@ -512,6 +519,83 @@
                                 Submitted on January 30, 2026 at 10:45 AM
                             </div>
                         </div>
+                        <!-- Review Notification Section -->
+                        <div class="content-section">
+
+                            <h2 class="heading">New Review Submitted</h2>
+
+                            <p class="message">
+                                Dear Admin,<br><br>
+
+                                A new review has been submitted on your website and is now available for your attention.
+                            </p>
+
+                            <div class="form-summary-section">
+                                <h3 class="form-summary-heading">Review Details</h3>
+
+                                <table role="presentation" class="form-summary-table" cellpadding="0" cellspacing="0">
+
+                                    <tr>
+                                        <td class="form-label" width="35%">Rating:</td>
+                                        <td class="form-value">4.00 / 5 ⭐</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="form-label">Title:</td>
+                                        <td class="form-value">Simple and Reliable</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="form-label" style="vertical-align: top;">Review:</td>
+                                        <td class="form-value">
+                                            I installed it on a client website and everything worked smoothly right away.
+                                            The documentation is clear and beginner friendly.
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="form-label">Status:</td>
+                                        <td class="form-value">
+                                            <span style="color:#16a34a;font-weight:600;">Published</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="form-label">Post URL:</td>
+                                        <td class="form-value">
+                                            <a href="http://wpplugins.test/sample-article-2-for-test-cat-2/" style="color:#667eea;text-decoration:underline;">
+                                                View Related Post
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                </table>
+
+                                <div class="form-summary-footer">
+                                    Submitted on January 30, 2026 at 11:10 AM
+                                </div>
+                            </div>
+
+                            <p class="message">
+                                <strong>Next Steps:</strong><br>
+                                Please review the submission, take any necessary action if required, and follow up with the customer where appropriate.
+                            </p>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="button-center">
+                                        <a href="https://yoursite.com/admin/reviews" class="button">Review Dashboard</a>
+                                        <a href="https://yoursite.com/admin/reply" class="button button-secondary">Respond</a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p class="message" style="margin-top:25px;">
+                                Thank you,<br>
+                                <strong>System Notification</strong>
+                            </p>
+
+                        </div>
                     </td>
                 </tr>
 
@@ -528,6 +612,9 @@
                 </tr>
             </table>
         </td>
+    </tr>
+    <tr>
+        <td height="50" style="line-height:50px; font-size:0;">&nbsp;</td>
     </tr>
 </table>
 </body>
